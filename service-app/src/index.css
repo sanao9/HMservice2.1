@@ -1,0 +1,36 @@
+/* components/Header.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: "Poppins", sans-serif;
+    color-scheme: rgb(7, 107, 77);
+}
+
+.header-container {
+    backdrop-filter: blur(10px);
+}
+
+.header-logo {
+    cursor: pointer;
+}
+
+.header-nav-items {
+    transition: color 0.3s ease-in-out;
+}
+
+.header-nav-items:hover {
+    color: #1458b8;
+}
+
+.header-buttons {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.header-buttons:hover {
+    background-color: #1c5cb4;
+}
+.bg-opacity-75 {
+    background-color: rgba(255, 255, 255, 0.75); /* 75% opacity */
+  }

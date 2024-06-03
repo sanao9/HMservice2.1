@@ -1,0 +1,14 @@
+
+.product-image {
+    width: 70%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .product-name {
+    text-align: center;
+    margin-top: 3px;
+    font-size: 1.125rem;
+    font-weight: 500;   
+  }
+  
